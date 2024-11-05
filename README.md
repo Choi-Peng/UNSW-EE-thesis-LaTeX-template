@@ -11,7 +11,7 @@ Main Modifications
 
 The original template is available at [UNSW-EE-thesis-LaTeX-template](https://github.com/CoveyZhang/UNSW-EE-thesis-LaTeX-template)
 
-Choi Peng,
+Choi Peng,  
 5/11/2024
 
 # Original README
