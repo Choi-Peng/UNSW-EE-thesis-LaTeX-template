@@ -2,34 +2,34 @@
 
 \providecommand{\keywords}[1]
 {
-  \small	
+  \small
   \textbf{\textit{Keywords---}} #1
 }
 
-\include{latexdefs}
+\include{doc/latexdefs}
 
 \begin{document}
 \thispagestyle{empty}
-\include{cover}
-\include{summary}
-\include{abstract}
+\include{doc/cover}
+\include{doc/summary}
+\include{doc/abstract}
 
 \pagestyle{plain}
 \setcounter{page}{1}
 \pagenumbering{arabic}
 
-\include{acknowledgements}
-\include{abbreviations}
+\include{doc/acknowledgements}
+\include{doc/abbreviations}
 \tableofcontents
 %\listoffigures
 %\listoftables
-\include{introduction}
-\include{background}
-\include{mywork}
-\include{evaluation}
-\include{conclusion}
+\include{doc/introduction}
+\include{doc/background}
+\include{doc/mywork}
+\include{doc/evaluation}
+\include{doc/conclusion}
 \bibliographystyle{plain}
-\bibliography{pubs}
+\bibliography{ref/pubs}
 \appendix
-\include{appendix}
+\include{doc/appendix}
 \end{document}
